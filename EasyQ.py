@@ -1,3 +1,4 @@
+#Pascal's Triangle
 def generate(numRows):
     triangle = []
     for i in range(numRows):
