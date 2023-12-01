@@ -1,4 +1,4 @@
-// Pascal's Triangle
+#Pascal's Triangle
 
 def majorityElement(nums):
     count1, count2, candidate1, candidate2 = 0, 0, 0, 1
