@@ -1,4 +1,4 @@
-#Pascal's Triangle
+#Easy3
 
 def Pascaltriangle(num_rows):
     tri = []
