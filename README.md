@@ -21,8 +21,8 @@
 
 ### Logic:
 
-* The goal is to find elements in the array that appear more than ⌊ n/3 ⌋ times, where n is the length of the array.
-* Check if candidates appear more than ⌊ n/3 ⌋ times in the array.
+* The goal is to find elements in the array that appear more than[n/3]times, where n is the length of the array.
+* Check if candidates appear more than [n/3] times in the array.
 * The code uses the Boyer-Moore Majority Vote algorithm to efficiently find the potential candidates for majority elements.
 
 ### Algorithm:
@@ -35,9 +35,9 @@
   * If count2 is 0, update cand2 to the current element and set count2 to 1.
   * If none of the above conditions is met, decrement both count1 and count2.
 * Reset the counters and iterate through the array again to count the occurrences of the potential candidates.
-* Check if the counts of cand1 and cand2 are greater than ⌊ n/3 ⌋.
+* Check if the counts of cand1 and cand2 are greater than [n/3].
 * If yes, add the candidates to the result list.
-* Return the result list containing the elements that appear more than ⌊ n/3 ⌋ times.
+* Return the result list containing the elements that appear more than [n/3] times.
 
 ## Hard Question(Hard1-Sliding Window Maximum)
 
