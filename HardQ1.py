@@ -1,4 +1,4 @@
-#Sliding Window Maximum
+#Hard1
 
 from collections import deque
 
