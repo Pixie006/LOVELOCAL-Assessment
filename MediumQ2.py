@@ -1,4 +1,4 @@
-#Majority Element II
+#Medium2
 
 def M_elements(nums):
     if not nums:
